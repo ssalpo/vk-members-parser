@@ -13,7 +13,7 @@ $app = new App\Services\VkGroupMembersService(
 
 echo "Запуск парсинга...." . PHP_EOL;
 
-echo sprintf('Группа: %s, Кол-во подписчиков: %s; ', 131101936, $app->groupMembersCount) . PHP_EOL;
+echo sprintf('Группа: %s, Кол-во подписчиков: %s; ', \App\Config\AppConfig::GROUP, $app->groupMembersCount) . PHP_EOL;
 
 echo "==========" . PHP_EOL;
 
