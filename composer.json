@@ -1,0 +1,19 @@
+{
+    "name": "sanjar/vk-members",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ssalpo",
+            "email": "ssalpomishevich@gmail.com"
+        }
+    ],
+    "require": {
+        "vkcom/vk-php-sdk": "^5.101",
+        "guzzlehttp/guzzle": "^7.0",
+        "mongodb/mongodb": "^1.4"
+    }
+}
